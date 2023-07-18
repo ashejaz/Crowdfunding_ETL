@@ -2,7 +2,8 @@
 
 This project involved extracting and transforming Excel data into CSV files to create a PostgreSQL database for crowdfunding data.
 
-Data Cleaning and Transformation
+** Data Cleaning and Transformation **
+
 The crowdfunding.xlsx Excel file contained raw data from a crowdfunding website. This data needed to be cleaned and transformed into four CSV files:
 
 category.csv - Contains category ID and name columns. The category ID column contains values like "cat1", "cat2", etc.
@@ -12,6 +13,14 @@ subcategory.csv - Contains subcategory ID and name columns. The subcategory ID c
 contacts.csv - Contains contact ID, first name, last name, and email columns.
 
 campaign.csv - Contains campaign data including ID, contact ID, description, goal amount, pledged amount, status, backer count, launch date, end date, country, currency, category ID, and subcategory ID.
+
+Cleaning Campaign Launch and End Dates
+
+The raw launch_date and deadline columns contained UTC timestamps. These were converted to a datetime datatype in pandas using .to_datetime() and re-named to launch_date and end_date:
+
+Splitting Contact Name into First and Last
+
+The name column contained the full name. This was split into first_name and last_name columns using regex
 
 The raw Excel data was loaded into Pandas DataFrames and cleaned using methods like .str.split(), .astype(),  and .to_datetime(). The cleaned DataFrames were exported into the four CSV files.
 
