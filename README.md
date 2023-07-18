@@ -39,15 +39,19 @@ The Postgres database crowdfunding_db was created and the tables were generated 
 Finally, each of the four CSV files was imported into its corresponding database table as below:
 
 Contacts:
+
 ![image](https://github.com/ashejaz/Crowdfunding_ETL/assets/127614970/4e63593c-ed3b-416b-a98e-bd3beb278fa6)
 
 Category:
+
 ![image](https://github.com/ashejaz/Crowdfunding_ETL/assets/127614970/551a68a0-d1ab-45ab-b0aa-fc10d0d74ee1)
 
 Subcategory:
+
 ![image](https://github.com/ashejaz/Crowdfunding_ETL/assets/127614970/7ec2a1d5-18ae-48b4-91c3-c6f5601229f6)
 
 Campaign:
+
 ![image](https://github.com/ashejaz/Crowdfunding_ETL/assets/127614970/93fec5a8-8ea5-4a3b-9d16-b32d2ec15633)
 
 The database is now ready to be queried and analyzed!
