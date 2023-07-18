@@ -12,6 +12,7 @@ campaign.csv - Contains campaign data including ID, contact ID, description, goa
 The raw Excel data was loaded into Pandas DataFrames and cleaned using methods like .str.split(), .astype(),  and .to_datetime(). The cleaned DataFrames were exported into the four CSV files.
 
 **Database Schema**
+
 An ERD diagram was created using QuickDBD to plan out the database schema based on the relationships between the CSV files.
 
 The ERD was used to create a Postgres database schema SQL file crowdfunding_db_schema.sql that contains CREATE TABLE statements for each of the four tables, along with primary keys, foreign keys, and other constraints.
@@ -24,6 +25,7 @@ Finally, each of the four CSV files was imported into its corresponding database
 The database is now ready to be queried and analyzed!
 
 **Files**
+
 crowdfunding.xlsx - Raw Excel data
 category.csv - Cleaned category data
 subcategory.csv - Cleaned subcategory data
