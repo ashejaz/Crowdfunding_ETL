@@ -1,4 +1,5 @@
 Crowdfunding Database Project
+
 This project involved extracting and transforming Excel data into CSV files to create a PostgreSQL database for crowdfunding data.
 
 Data Cleaning and Transformation
