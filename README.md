@@ -58,7 +58,7 @@ The database is now ready to be queried and analyzed!
 
 ## Files ##
 
-Resourcess folder:
+Resources folder:
 
 crowdfunding.xlsx - Raw Excel data
 
