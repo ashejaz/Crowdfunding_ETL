@@ -14,11 +14,11 @@ The crowdfunding.xlsx Excel file contained raw data from a crowdfunding website.
 
 - campaign.csv - Contains campaign data including ID, contact ID, description, goal amount, pledged amount, status, backer count, launch date, end date, country, currency, category ID, and subcategory ID.
 
-Cleaning Campaign Launch and End Dates
+Cleaning Campaign Launch and End Dates:
 
 The raw launch_date and deadline columns contained UTC timestamps. These were converted to a datetime datatype in pandas using .to_datetime() and re-named to launch_date and end_date:
 
-Splitting Contact Name into First and Last
+Splitting Contact Name into First and Last:
 
 The name column contained the full name. This was split into first_name and last_name columns using regex
 
@@ -77,3 +77,10 @@ crowdfunding_db_schema.sql - Database schema SQL file
 
 crowdfunding_ERD.png - Entity relationship diagram for all 4 tables
 
+contacts.png - Result of SELECT * query for contacts table
+
+category.png - Result of SELECT * query for category table
+
+subcategory.png - Result of SELECT * query for subcategory table
+
+campaign.png - Result of SELECT * query for campaign table
