@@ -28,7 +28,7 @@ The raw Excel data was loaded into Pandas DataFrames and cleaned using methods l
 
 An ERD diagram was created using QuickDBD to plan out the database schema based on the relationships between the CSV files.
 
-![image](https://github.com/ashejaz/Crowdfunding_ETL/assets/127614970/c0a23dd9-5ec9-4dff-8df4-d03c352ab231)
+![image](https://github.com/ashejaz/Crowdfunding_ETL/assets/127614970/bf59a336-ee93-4ee5-9987-865427129f38)
 
 The ERD was used to create a Postgres database schema SQL file crowdfunding_db_schema.sql that contains CREATE TABLE statements for each of the four tables, along with primary keys, foreign keys, and other constraints.
 
@@ -40,19 +40,20 @@ Finally, each of the four CSV files was imported into its corresponding database
 
 Contacts:
 
-![image](https://github.com/ashejaz/Crowdfunding_ETL/assets/127614970/4e63593c-ed3b-416b-a98e-bd3beb278fa6)
+![image](https://github.com/ashejaz/Crowdfunding_ETL/assets/127614970/9877f93a-a187-460d-a203-9d7ec28f68a5)
 
 Category:
 
-![image](https://github.com/ashejaz/Crowdfunding_ETL/assets/127614970/551a68a0-d1ab-45ab-b0aa-fc10d0d74ee1)
+![image](https://github.com/ashejaz/Crowdfunding_ETL/assets/127614970/80ad5c62-aad9-4c29-bd1a-671be1cb6689)
 
 Subcategory:
 
-![image](https://github.com/ashejaz/Crowdfunding_ETL/assets/127614970/7ec2a1d5-18ae-48b4-91c3-c6f5601229f6)
+![image](https://github.com/ashejaz/Crowdfunding_ETL/assets/127614970/730c4005-1476-4899-828f-f3465e97d6bc)
 
 Campaign:
 
-![image](https://github.com/ashejaz/Crowdfunding_ETL/assets/127614970/93fec5a8-8ea5-4a3b-9d16-b32d2ec15633)
+![image](https://github.com/ashejaz/Crowdfunding_ETL/assets/127614970/c730f568-0628-456b-b668-90278ce25957)
+
 
 The database is now ready to be queried and analyzed!
 
