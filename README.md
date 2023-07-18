@@ -32,9 +32,15 @@ The database is now ready to be queried and analyzed!
 **Files**
 
 crowdfunding.xlsx - Raw Excel data
+
 category.csv - Cleaned category data
+
 subcategory.csv - Cleaned subcategory data
+
 contacts.csv - Cleaned contact data
+
 campaign.csv - Cleaned campaign data
+
 crowdfunding_db_schema.sql - Database schema SQL file
+
 README.md - This file
