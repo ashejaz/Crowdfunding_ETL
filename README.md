@@ -2,7 +2,7 @@
 
 This project involved extracting and transforming Excel data into CSV files to create a PostgreSQL database for crowdfunding data.
 
-** Data Cleaning and Transformation **
+***Data Cleaning and Transformation***
 
 The crowdfunding.xlsx Excel file contained raw data from a crowdfunding website. This data needed to be cleaned and transformed into four CSV files:
 
