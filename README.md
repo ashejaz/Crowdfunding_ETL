@@ -61,7 +61,9 @@ The database is now ready to be queried and analyzed!
 
 Resources folder:
 
-crowdfunding.xlsx - Raw Excel data
+crowdfunding.xlsx - Raw crowdfunding Excel data
+
+contacts.xlsx - Raw contacts Excel data
 
 category.csv - Cleaned category data
 
@@ -70,6 +72,7 @@ subcategory.csv - Cleaned subcategory data
 contacts.csv - Cleaned contact data
 
 campaign.csv - Cleaned campaign data
+
 
 SQL_DB folder:
 
